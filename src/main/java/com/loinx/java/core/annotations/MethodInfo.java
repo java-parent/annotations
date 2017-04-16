@@ -1,4 +1,4 @@
-package com.loinx.java.annotations;
+package com.loinx.java.core.annotations;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

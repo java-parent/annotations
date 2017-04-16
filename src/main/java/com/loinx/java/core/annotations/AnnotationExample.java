@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.loinx.java.annotations;
+package com.loinx.java.core.annotations;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;

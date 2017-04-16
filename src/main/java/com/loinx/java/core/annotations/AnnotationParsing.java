@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.loinx.java.annotations;
+package com.loinx.java.core.annotations;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -16,7 +16,7 @@ public class AnnotationParsing {
 			for (Method method : AnnotationParsing.class.getClassLoader()
 					.loadClass(("com.loinx.java.annotations.AnnotationExample")).getMethods()) {
 				// checks if MethodInfo annotation is present for the method
-				if (method.isAnnotationPresent(com.loinx.java.annotations.MethodInfo.class)) {
+				if (method.isAnnotationPresent(com.loinx.java.core.annotations.MethodInfo.class)) {
 					try {
 						// iterates all the annotations available in the method
 						for (Annotation anno : method.getDeclaredAnnotations()) {
